@@ -29,3 +29,31 @@ python src/main.py dataset1 conf/Sentinel2.conf
 1. The first parameter is for selecting the dataset. You can declare much dataset in conf file, so you can customize all the paths and names.
 The section to describe the dataset configuration is declared using reflection mechanism, so in this example the Czech Republic is named dataset1, and we use dataset1 param to start the train on this dataset (same for france named dataset2).
 2. The second parameter is to refer the configuration file. Ypu can also create different customized configuration files and get it into the second parameter. 
+
+## Citation
+If you use this repository in your research, please cite the following paper:
+
+Recchia, V., Andresini, G., Appice, A., Fontana, G., Malerba, D. (2025). *An Attention-Based CNN Approach to Detect Forest Tree Dieback Caused by Insect Outbreak in Sentinel-2 Images*. In: Pedreschi, D., Monreale, A., Guidotti, R., Pellungrini, R., Naretto, F. (eds) **Discovery Science. DS 2024**. Lecture Notes in Computer Science, vol 15244. Springer, Cham. https://doi.org/10.1007/978-3-031-78980-9_12
+
+- Conference paper (Open Access)
+- First online: 28 January 2025
+- Pages: 183-199
+- Print ISBN: 978-3-031-78979-3
+- Online ISBN: 978-3-031-78980-9
+
+### BibTeX
+```bibtex
+@InProceedings{Recchia2025AVALON,
+  author    = {Recchia, Vito and Andresini, Giovanni and Appice, Annalisa and Fontana, Giuseppe and Malerba, Donato},
+  editor    = {Pedreschi, Dino and Monreale, Anna and Guidotti, Riccardo and Pellungrini, Roberto and Naretto, Francesco},
+  title     = {An Attention-Based CNN Approach to Detect Forest Tree Dieback Caused by Insect Outbreak in Sentinel-2 Images},
+  booktitle = {Discovery Science},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {15244},
+  pages     = {183--199},
+  year      = {2025},
+  publisher = {Springer, Cham},
+  doi       = {10.1007/978-3-031-78980-9_12},
+  isbn      = {978-3-031-78980-9}
+}
+```
